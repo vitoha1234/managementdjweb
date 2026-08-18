@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+
+@theme inline {
+  --color-void: #08080D;
+  --color-surface: #121218;
+  --color-raised: #1B1B24;
+  --color-line: #262631;
+  --color-pink: #FF2E88;
+  --color-violet: #8B5CF6;
+  --color-cyan: #22F0D8;
+  --color-ink: #F5F4FA;
+  --color-muted: #8D8CA3;
+
+  --font-display: "Unbounded", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-data: "JetBrains Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-void);
+}
+
+::selection {
+  background: #ff2e8844;
+}
+
+::placeholder {
+  color: #4e4d5e;
+}
+
+@keyframes eq {
+  0%,
+  100% {
+    transform: scaleY(0.5);
+    opacity: 0.55;
+  }
+  50% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+.animate-eq {
+  animation: eq 1.4s ease-in-out infinite;
+}
