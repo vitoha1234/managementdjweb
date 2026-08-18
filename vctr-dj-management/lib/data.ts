@@ -1,4 +1,4 @@
-export const WA_NUMBER = "6281234567890"; // TODO: ganti dengan nomor WhatsApp bisnis asli
+export const WA_NUMBER = "62889635157683"; // TODO: ganti dengan nomor WhatsApp bisnis asli
 
 export type Dj = {
   id: string;
@@ -11,11 +11,11 @@ export type Dj = {
 
 export const DJS: Dj[] = [
   {
-    id: "dj-vega",
-    name: "DJ Vega",
-    genre: "Progressive House / EDM",
-    city: "Jakarta",
-    bio: "10+ tahun membangun energi dance floor di klub dan festival besar se-Asia Tenggara. Dikenal lewat transisi mulus dan build-up yang presisi.",
+    id: "DEEJAY VICTOR",
+    name: "DEEJAY VICTOR",
+    genre: "EDM , INDOBOUNCE , BKB , HARDBOUNCE , TECHNO , MANYAO ",
+    city: "SURAKARTA",
+    bio: "12+ tahun membangun energi dance floor . Victor Yustama Sutanto, atau yang lebih dikenal di skena musik sebagai DJ Victor, adalah seorang professional disc jockey dan pendiri VCTR DJ Management yang berbasis di Surakarta (Solo), Jawa Tengah. Dikenal dengan set-nya yang berenergi tinggi, DJ Victor memiliki spesialisasi dalam meracik genre Indobounce dan Jedag Jedug yang selalu berhasil menghidupkan suasana lantai dansa. Berbekal jam terbang dan penguasaan teknis menggunakan perangkat standar industri seperti Pioneer XDJ-RX3 dan DDJ-SX2, serta proses kreatif kurasi audio melalui Ableton Live, ia memastikan kualitas suara dan transisi yang seamless di setiap penampilannya. Ia telah dipercaya menangani tata suara dan memandu ⚡ energi audiens di berbagai acara. ",
     track: "https://api.soundcloud.com/tracks/293",
   },
   {
