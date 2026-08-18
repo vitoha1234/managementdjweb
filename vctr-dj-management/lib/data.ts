@@ -11,7 +11,7 @@ export type Dj = {
 
 export const DJS: Dj[] = [
   {
-    id: "DEEJAY VICTOR",
+    id: "DEEJAY-VICTOR",
     name: "DEEJAY VICTOR",
     genre: "EDM , INDOBOUNCE , BKB , HARDBOUNCE , TECHNO , MANYAO ",
     city: "SURAKARTA",
